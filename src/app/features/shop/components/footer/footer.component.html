@@ -1,0 +1,67 @@
+ <!-- Footer Start -->
+ <div class="container-fluid bg-dark text-secondary mt-5 pt-5">
+    <div class="row px-xl-5 pt-5">
+        <div class="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
+            <h5 class="text-secondary text-uppercase mb-4">MaiBa Electronics</h5>
+            <p class="mb-4">MaiBa Electronics à pour mission de vous offrir une large gamme de produits éléctroniques et high tech</p>
+            <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>Ouest Foire, Dakar, Sénégal</p>
+            <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>contact@maibaelectronics.com</p>
+            <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>+33 665 75 65</p>
+        </div>
+        <div class="col-lg-8 col-md-12">
+            <div class="row">
+                <div class="col-md-4 mb-5">
+                    <h5 class="text-secondary text-uppercase mb-4">Achat rapide</h5>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Acceuil</a>
+                        <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>La boutique</a>
+                        <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>A propos</a>
+                        <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Mon panier</a>
+                        <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Paiement</a>
+                        <a class="text-secondary" href="#"><i class="fa fa-angle-right mr-2"></i>Contact</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <h5 class="text-secondary text-uppercase mb-4">Mon compte</h5>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Mon compte</a>
+                        <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Ma boutique</a>
+                        <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Mes produits</a>
+                        <a class="text-secondary" href="#"><i class="fa fa-angle-right mr-2"></i>Déconnexion</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <h5 class="text-secondary text-uppercase mb-4">Newsletter</h5>
+                    <p>Abonnez-vous à notre newsletter pour recevoir toutes les nouveautés</p>
+                    <form [formGroup]="newsletterForm!">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Votre adresse email" formControlName="email" >
+                            <div class="input-group-append">
+                                <button [disabled]="!newsletterForm?.valid" class="btn btn-primary" (click)="onSubmit()">S'inscrire</button>
+                            </div>
+                        </div>
+                    </form>
+                    <h6 class="text-secondary text-uppercase mt-4 mb-3">Suivez-nous sur: </h6>
+                    <div class="d-flex">
+                        <a class="btn btn-primary btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-primary btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-primary btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row border-top mx-xl-5 py-4" style="border-color: rgba(256, 256, 256, .1) !important;">
+        <div class="col-md-6 px-xl-0">
+            <p class="mb-md-0 text-center text-md-left text-secondary">
+                &copy; <a class="text-primary" href="#">Maiba Electronics</a>. Tout droits réservés. Powered by
+                <a class="text-primary" href="https://htmlcodex.com">MaiBa tech</a>
+            </p>
+        </div>
+        <div class="col-md-6 px-xl-0 text-center text-md-right">
+            <img class="img-fluid" src="../../../../../assets/img/payments.png" alt="">
+        </div>
+    </div>
+</div>
+<!-- Footer End -->

@@ -1,0 +1,46 @@
+{
+    "categories": [
+       {
+        "id": 1,
+        "name": "Télévisions",
+        "nb": 6,
+        "img": ""
+       },
+       {
+        "id": 2,
+        "name": "Accessoires TV",
+        "nb": 8,
+        "img": ""
+       },
+       {
+        "id": 3,
+        "name": "Apareils Photos",
+        "nb": 60,
+        "img": ""
+       },
+       {
+        "id": 4,
+        "name": "Caméras",
+        "nb": 16,
+        "img": ""
+       },
+       {
+        "id": 5,
+        "name": "SmartPhones",
+        "img": "",
+        "nb": 36
+       },
+       {
+        "id": 6,
+        "name": "Accessoires Téléphones",
+        "nb": 69,
+        "img": ""
+       },
+       {
+        "id": 7,
+        "name": "Montres Connectées",
+        "nb": 66,
+        "img": ""
+       }
+    ]
+}
